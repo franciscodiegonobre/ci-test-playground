@@ -4,6 +4,8 @@ module.exports = defineConfig({
   projectId: "c6pd9y",
   viewportWidth: 1200,
   screenshotOnRunFailure: true,
+  videoUploadOnPasses: false,
+  video: false,
   defaultCommandTimeout: 8000,
   pageLoadTimeout: 100000,
   e2e: {
