@@ -1,5 +1,4 @@
 {
-  "homepage": "http://franciscodiegonobre.github.io/starwars-testing-and-ci",
   "name": "starwars-testing-and-ci",
   "version": "0.1.0",
   "private": true,
@@ -43,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
