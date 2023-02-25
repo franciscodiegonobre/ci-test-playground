@@ -5,7 +5,7 @@ export default function Home() {
     <div className="home-page">
       <div className="container">
         <h1>STAR WARS STARSHIPS</h1>
-        <Link to="/starships" className="cta-button">
+        <Link to="/starships" className="cta-button" data-testid="start-link">
           START
         </Link>
       </div>
