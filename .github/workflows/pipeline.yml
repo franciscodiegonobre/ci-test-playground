@@ -66,6 +66,10 @@ jobs:
           command: npm run test:e2e
           start: npm run start
           wait-on: http://localhost:3000/
+          record: true
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
     needs: [tests-e2e]
