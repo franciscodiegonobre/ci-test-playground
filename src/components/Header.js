@@ -11,7 +11,6 @@ export default function Header() {
     <div className="header">
       <div className="header--leftspace"></div>
       <img src={logo} className="header--logo" />
-
       <a href="#" className="header--logout" onClick={handleLogout}>
         LOGOUT
       </a>
