@@ -148,9 +148,9 @@ export default function Login() {
               >
                 I'm already a member
               </a>
-              {/* <Alert show={showAlert} variant="dark">
+              <Alert show={showAlert} variant="dark">
                 Your account has been created
-              </Alert> */}
+              </Alert>
             </form>
           </div>
         ) : (
