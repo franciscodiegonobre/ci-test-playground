@@ -2,7 +2,7 @@ describe("Login page", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000/");
   });
-
+  //
   it("Landing page can be opened", () => {
     cy.contains("Sign in");
   });
